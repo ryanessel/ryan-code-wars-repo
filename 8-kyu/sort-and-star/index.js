@@ -42,3 +42,27 @@ function twoSort(s) {
     return ucky;//its ucky lol
 
 }
+
+
+//Alternative useful methods-
+// This example below is interesting because I didn't know you could run a bunch of methods together like that all at once.
+// Bretty gool.
+
+
+
+function twoSort2(s) {
+
+    return s.sort()[0].split("").join("***")
+
+}
+
+//even shorter
+
+const twoSort = (s) => s.sort()[0].split("").join("***");
+
+//さらに even shorter
+//ES6 syntax
+twoSort = s => s.sort()[0].split("").join("***");
+
+
+
